@@ -1,0 +1,148 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.Logo,
+h2 {
+  text-align: left;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+  line-height: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+}
+
+.Slider {
+  position: relative;
+  width: 100%;
+  margin-bottom: 30px;
+  word-spacing: 20px;
+  letter-spacing: 5px;
+  font-size: 22px;
+}
+.Slider img {
+  width: 100%;
+  height: 600px;
+}
+.Slider span {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  line-height: 3;
+}
+#Br {
+  font-weight: 800;
+  background-color: black;
+}
+.Content {
+  padding: 0 5% 0 5%;
+}
+.Content h2 {
+  font-size: 20px;
+}
+hr {
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+.container,
+.container1 {
+  display: flex;
+}
+.cont-1,
+.cont-2,
+.cont-3,
+.cont-4,
+.cont-5,
+.cont-6,
+.cont-7,
+.cont-8 {
+  position: relative;
+
+  padding: 5px;
+}
+
+.G1,
+.G2,
+.G3,
+.G4,
+.G5,
+.G6,
+.G7,
+.G4 {
+  position: absolute;
+  top: 8px;
+  left: 5px;
+  color: white;
+  background-color: black;
+}
+
+.container img,
+.container1 img {
+  width: 100%;
+}
+.About {
+  display: flex;
+  padding: 10px;
+}
+.About div {
+  width: 25%;
+  padding: 15px;
+}
+.About img {
+  width: 100%;
+}
+.About h3,
+.About h2 {
+  text-align: center;
+  line-height: 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.About h3 {
+  color: darkgray;
+}
+.About input {
+  margin-top: 20px;
+  width: 100%;
+  height: 25px;
+}
+.formulaire {
+  white-space: pre-line;
+}
+.formulaire input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 5px 0;
+  color: silver;
+}
+.button1 {
+  background-color: black;
+  color: white;
+  width: 20%;
+  padding: 10px;
+  margin: 5px 0 10px 0;
+}
+.Maps {
+  width: 100%;
+  height: 900px;
+}
+footer {
+  background-color: black;
+  color: white;
+  padding: 25px;
+  text-align: center;
+  margin-top: 20px;
+}
